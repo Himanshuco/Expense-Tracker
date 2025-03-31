@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="estyle.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Expense Tracker</h1>
+            <p>Track your expenses and income easily</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Add Expense / Income</h2>
+            <form id="expense-form">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="type">
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                </select>
+                <button type="submit">Add Transaction</button>
+            </form>
+        </section>
+
+        <section class="transaction-list">
+            <h2>Transactions</h2>
+            <table id="transaction-table">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Transactions will appear here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="total">
+            <h2>Total Balance</h2>
+            <p id="total-amount">$0.00</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Expense Tracker App</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

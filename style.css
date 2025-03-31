@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color:  #00DFA2;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #FE4F2D;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li {
+    font-size: 1.2em;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #FF8F00;
+  }
+  
+  /* Header Styles */
+  header {
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-cartoon-dollar-sign-illustration_23-2150939371.jpg?ga=GA1.1.2106225934.1743353268&semt=ais_hybrid');
+    background-size: contain;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  header .header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    
+  }
+  
+  header .header-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+   
+  }
+  
+  .bordered-text {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;  
+    text-shadow: 
+      2px 2px 0px black,   
+      -2px -2px 0px black, 
+      2px -2px 0px black,
+      -2px 2px 0px black;
+  }
+  
+  
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  .intro h2 {
+    font-size: 2.2em;
+    color: #FF0060;
+    
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #FE4F2D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .footer-content p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar ul li {
+      margin-bottom: 10px;
+    }
+  
+    header .header-content h1 {
+      font-size: 2em;
+    }
+  
+    header .header-content p {
+      font-size: 1.2em;
+    }
+  
+    .intro h2 {
+      font-size: 1.8em;
+    }
+  }
+  
