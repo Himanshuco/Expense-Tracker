@@ -3,4 +3,4 @@ The Expense Tracker is a personal finance web application designed to help users
 
 # Visit the website 
   ## link : 
-  [Expense Track Website](https://himanshuco.github.io/FactApi](https://himanshuco.github.io/Expense-Tracker/) "Visit Website"
+  [Expense Track Website](https://himanshuco.github.io/Expense-Tracker/) "Visit Website"
